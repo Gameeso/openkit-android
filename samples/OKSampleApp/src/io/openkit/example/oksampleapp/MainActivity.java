@@ -50,8 +50,8 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		// Grab your app key and secret key from the OpenKit dashboard at http://developer.openkit.io/
-		String myAppKey = "BspfxiqMuYxNEotLeGLm";
-		String mySecretKey = "2sHQOuqgwzocUdiTsTWzyQlOy1paswYLGjrdRWWf";
+		String myAppKey = "2DP622Qd49i7dhE186Xh";
+		String mySecretKey = "k2w5zMHDs5WjmcUMK9aHBBEXtVXVG1a5Cq1lDgb0";
 
 
 		// Initialize OpenKit. You must call this when your app starts (so we call it in onCreate in our MainActivity)
