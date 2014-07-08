@@ -1,0 +1,17 @@
+language: objective-c
+before_script: travis/before_script.sh
+script: travis/script.sh
+branches:
+  only:
+  - development
+  - master
+deploy:
+  provider: releases
+  api_key:
+    secure: O/xw4FPp65JiW82F53yOzOLCHKrsJtc5HTEc72yxt3tI8+58h6fHuIvkv6UIP2Q8msi4yDBm9vqapfN/XBeQIT1nefweE+0v4DOQ72K4fBc/4VJhER6jZZMc2J7ZjQQnIHVQj3OLZRaM0pnb+YyHO3CyjxsyCNMhYmcIbfJqDTQ=
+  file: Gameeso-Android-SDK.zip
+  skip_cleanup: true
+  on:
+    repo: Gameeso/openkit-android
+    tags: true
+    all_branches: true
