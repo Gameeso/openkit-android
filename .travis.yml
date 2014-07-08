@@ -1,14 +1,8 @@
 language: java
 jdk:
-  - oraclejdk7
   - openjdk7
-  - openjdk6
 before_script: travis/before_script.sh
 script: travis/script.sh
-branches:
-  only:
-  - development
-  - master
 deploy:
   provider: releases
   api_key:
@@ -16,6 +10,6 @@ deploy:
   file: Gameeso-Android-SDK.zip
   skip_cleanup: true
   on:
-    repo: Gameeso/openkit-android
     tags: true
     all_branches: true
+    repo: Gameeso/openkit-android
