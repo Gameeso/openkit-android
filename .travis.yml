@@ -1,4 +1,8 @@
-language: objective-c
+language: java
+jdk:
+  - oraclejdk7
+  - openjdk7
+  - openjdk6
 before_script: travis/before_script.sh
 script: travis/script.sh
 branches:
