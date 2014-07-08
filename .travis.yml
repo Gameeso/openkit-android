@@ -6,7 +6,7 @@ script: travis/script.sh
 deploy:
   provider: releases
   api_key:
-    secure: O/xw4FPp65JiW82F53yOzOLCHKrsJtc5HTEc72yxt3tI8+58h6fHuIvkv6UIP2Q8msi4yDBm9vqapfN/XBeQIT1nefweE+0v4DOQ72K4fBc/4VJhER6jZZMc2J7ZjQQnIHVQj3OLZRaM0pnb+YyHO3CyjxsyCNMhYmcIbfJqDTQ=
+    secure: "Wn0Nfig9ju5Mzysx3aZR/QaRw5kOc4XxBuBj7Xw3cV34voOhB3tBqRPDol1ZI9ejdIjicBCosKQnW5ji80zkhQgKZ3c+PuSCUM0LniOEv3UDelabJC8WUHv9exm4kKNfV8pBYaBGnVVPtIZQZPwUpwvx0VmfjR69zvhcvxJhygY="
   file: Gameeso-Android-SDK.zip
   skip_cleanup: true
   on:
