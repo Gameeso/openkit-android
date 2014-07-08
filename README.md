@@ -1,5 +1,6 @@
 openkit-android-sdk
 ===================
+[![Build Status](https://travis-ci.org/Gameeso/openkit-android.svg?branch=development)](https://travis-ci.org/Gameeso/openkit-ios)
 
 Android SDK for OpenKit Social Leaderboard and achievements.
 
