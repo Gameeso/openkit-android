@@ -1,6 +1,13 @@
-language: java
-jdk:
-  - openjdk7
+language: android
+android:
+  components:
+    - build-tools-19.0.3
+    - android-19
+    - sysimg-19
+    - extra-android-support
+  licenses:
+    - android-sdk-license-bcbbd656
+    - '.*intel.+'
 before_script: travis/before_script.sh
 script: travis/script.sh
 deploy:
