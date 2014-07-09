@@ -5,6 +5,10 @@ ANT_TARGET="dist-jar"
 ANDROID_SDK_BUILD_FILE="OpenKitSDK/build.xml"
 ANDROID_UNITY_BUILD_FILE="OpenKitUnity/build.xml" 
 
+#debug
+echo "home: $ANDROID_HOME"
+cat ./local.properties
+
 echo "Building Android SDK"
 ant $ANT_CONFIG -f $ANDROID_SDK_BUILD_FILE
 
